@@ -15,6 +15,7 @@ def product_of_all (new_sum,new_product):
     final_product = new_sum * new_product
     return final_product
 
+#Test Cases
 if (product_of_all(add_to_7(5), multiply_by_7(3))) == 252:
     print ('Test Case 1 is True')
 if (product_of_all(add_to_7(7), multiply_by_7(5))) == 490:
