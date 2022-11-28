@@ -18,10 +18,23 @@ def product_of_all (new_sum,new_product):
 #Test Cases
 if (product_of_all(add_to_7(5), multiply_by_7(3))) == 252:
     print ('Test Case 1 is True')
+else:
+    print ('Test Case 1 is False')
+
+
 if (product_of_all(add_to_7(7), multiply_by_7(5))) == 490:
     print ('Test Case 2 is True')
+else:
+    print ('Test Case 2 is False')
+
+
 if (product_of_all(add_to_7(1), multiply_by_7(30))) == 1680:
     print ('Test Case 3 is True')
+else:
+    print ('Test Case 3 is False')
+
+
 if (product_of_all(add_to_7(40), multiply_by_7(90))) == 29610:
     print ('Test Case 4 is True')
-
+else:
+    print ('Test Case 4 is False')
