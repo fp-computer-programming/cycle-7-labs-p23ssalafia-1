@@ -1,6 +1,9 @@
 #Author: SJS 11/18/22
 
 #Create function and define parameters
+from gettext import find
+
+
 def find_sum(num1,num2):
     '''Finds the sum of the two numbers that were input'''
     num_sum = num1 + num2
@@ -12,3 +15,8 @@ my_sum = find_sum (111,222)
 print (my_sum)
 #prints the sum of both test cases
 
+#4 additional test cases
+print (find_sum (4,999) == 1003) 
+print (find_sum(1234,4321) == 5555)
+print (find_sum(1,1) == 2)
+print (find_sum(111111111,333333333) == 444444444)
