@@ -31,6 +31,4 @@ def word_length_lister (a, b, c, d, e):
     return y
 
 print (word_length_lister("one", "twoo", "three", "fourrr", "fiveeee"))
-    
-
 

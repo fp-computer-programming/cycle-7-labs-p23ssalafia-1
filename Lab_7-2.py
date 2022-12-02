@@ -11,4 +11,3 @@ print (find_sum (20, 40))
 my_sum = find_sum (111,222)
 print (my_sum)
 #prints the sum of both test cases
-
